@@ -1,38 +1,37 @@
-import { Routes, Route,NavLink  } from "react-router-dom";
-import Admin from "./pages/Admin";
-import AdminProject from "./pages/AdminProject";
-import UserList from "./pages/UserList";
-import AdminInfo from "./pages/AdminInfo";
-import AdminInfoRedact from "./pages/AdminInfoRedact";
+import { Routes, Route, NavLink } from "react-router-dom";
+import Main from "./pages/Main";
+import AboutUs from "./pages/AboutUs";
+import Contact from "./pages/Contact";
+import Vakansi from "./pages/Vakansi";
 
 function App() {
   return (
     <div>
-      <nav>
-        <ul>
-          <li>
-            <NavLink to="/">Admin</NavLink>
-          </li>
-          <li>
-            <NavLink to="/user">User List</NavLink>
-          </li>
-          <li>
-            <NavLink to="/admin-info">Admin Info</NavLink>
-          </li>
-          <li>
-            <NavLink to="/admin-project">Admin Project</NavLink>
-          </li>
-          <li>
-            <NavLink to="/admin-info-redact">Admin Info Redact</NavLink>
-          </li>
-        </ul>
-      </nav>
+      <header>
+        <div className="container">
+          <div className="header-container">
+            <NavLink to="/" className="head-logo">
+              Opticode
+            </NavLink>
+            <ul className="head-menu">
+              <li>
+                <NavLink to="/aboutUs">О нас</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact">Контакты</NavLink>
+              </li>
+              <li>
+                <NavLink to="/vakansi">Вакансии</NavLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
       <Routes>
-        <Route path="/" element={<Admin />} />
-        <Route path="/user" element={<UserList />} />
-        <Route path="/admin-info" element={<AdminInfo />} />
-        <Route path="/admin-project" element={<AdminProject />} />
-        <Route path="/admin-info-redact" element={<AdminInfoRedact />} />
+        <Route path="/" element={<Main />} />
+        <Route path="/aboutUs" element={<AboutUs />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/vakansi" element={<Vakansi />} />
       </Routes>
     </div>
   );
