@@ -7,7 +7,7 @@ const AboutUs = () => {
       className="sec1"
       style={{
         backgroundImage:
-          "url('/img/telegram-cloud-photo-size-2-5271946114322522287-y 1.png')",
+          "url('/img/bgtg.png')",
       }}
     >
       <div className="sec1-bg"></div>

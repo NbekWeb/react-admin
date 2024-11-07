@@ -7,7 +7,7 @@ const MyComponent = () => {
     <section
       className="sec1"
       style={{
-        backgroundImage: `url('/img/telegram-cloud-photo-size-2-5271946114322522287-y 1.png')`,
+        backgroundImage: `url('/img/bgtg.png')`,
       }}
     >
       <div className="sec1-bg"></div>
@@ -132,9 +132,8 @@ const MyComponent = () => {
                   />
                 </svg>
               </a>
-              <a href="/">
-                <img src="/img/sloy.png" alt="Client Logo" />
-              </a>
+              
+              
               <a href="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
