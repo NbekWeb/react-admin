@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+
 import { NavLink } from "react-router-dom";
+
 const MyComponent = () => {
   const [showVideo, setShowVideo] = useState(false);
 
@@ -7,7 +9,7 @@ const MyComponent = () => {
     <section
       className="sec1"
       style={{
-        backgroundImage: `url('/img/bgtg.png')`,
+        backgroundImage: `url('/img/tg1.png')`,
       }}
     >
       <div className="sec1-bg"></div>
@@ -26,7 +28,6 @@ const MyComponent = () => {
             </li>
           </ul>
         </div>
-
         <div className="sec1-container">
           <div className="sec1-container-text">
             <h1>Заголовок</h1>
@@ -72,7 +73,7 @@ const MyComponent = () => {
                 </svg>
               </div>
             ) : (
-              <div className="video">
+              <div className="video" style={{ display: "block" }}>
                 <iframe
                   width="100%"
                   height="100%"
@@ -87,13 +88,12 @@ const MyComponent = () => {
           </div>
         </div>
       </div>
-
       <div className="cliensts">
         <div className="container">
           <div className="cliensts-container">
             <p>Наши клиенты</p>
             <div className="cliensts-container-logo">
-              <a href="/">
+              <a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="152"
@@ -116,7 +116,7 @@ const MyComponent = () => {
                   </defs>
                 </svg>
               </a>
-              <a href="/">
+              <a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="48"
@@ -132,9 +132,10 @@ const MyComponent = () => {
                   />
                 </svg>
               </a>
-              
-              
-              <a href="">
+              <a href="#">
+                <img src="/img/sl2.png" alt="" />
+              </a>
+              <a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="48"

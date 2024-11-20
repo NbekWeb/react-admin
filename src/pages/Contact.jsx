@@ -7,7 +7,7 @@ const Contact = () => {
       className="sec1"
       style={{
         backgroundImage:
-          "url('/img/bgtg.png')",
+          "url('/img/tg1.png')",
       }}
     >
       <div className="sec1-bg"></div>

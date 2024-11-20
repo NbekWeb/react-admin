@@ -11,7 +11,7 @@ function App() {
         <div className="container">
           <div className="header-container">
             <NavLink to="/" className="head-logo">
-              Opticode
+              <img src="/img/opticode-logo.png" alt="" />
             </NavLink>
             <ul className="head-menu">
               <li>
@@ -27,6 +27,7 @@ function App() {
           </div>
         </div>
       </header>
+      
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/aboutUs" element={<AboutUs />} />

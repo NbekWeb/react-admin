@@ -106,12 +106,19 @@ button:hover{
 .sec1-container{
   padding: 184px 0;
 }
+/* Обычный */
+@font-face {
+  font-family: 'Monaly Personal Use';
+  src: url(/MonalyPersonalUse.otf);
+}
+
 .sec1-container-text h1,.contacts-title{
   font-size: 78px;
   font-style: normal;
   font-weight: 400;
   line-height: 68px; /* 87.179% */
   padding-bottom: 53px;
+  font-family: 'Monaly Personal Use';
 }
 .sec1-container-text p{
   font-size: 28px;
@@ -438,4 +445,116 @@ button:hover{
   font-style: normal;
   font-weight: 400;
   line-height: 40px; /* 222.222% */
+}
+
+
+.btn {
+  cursor: pointer;
+  background: transparent;
+  position: relative;
+  outline: none;
+  transition: 1s ease-in-out;
+  border: 1px solid #E2E2E2;
+  width: 180px;
+  margin-top: 13px;
+  height: 60px;
+}
+
+.btn > svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+}
+.head-logo{
+  display: flex;
+  align-items: center;
+}
+.head-logo img{
+  width: 350px;
+}
+
+
+.btn2 {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: transparent;
+  border: 1px solid #E2E2E2;
+  padding: 10px 17px;
+  margin: 0 auto;
+  margin-left: 0;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.btn2 span {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.btn2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 300%;
+  width: 140%;
+  background: linear-gradient(0deg, #E3C998 0%, #C86F08 94.17%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn2:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.link {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.link a {
+  color: #000;
+  font-size: 25px;
 }

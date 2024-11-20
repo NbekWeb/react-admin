@@ -6,8 +6,7 @@ const AboutUs = () => {
     <section
       className="sec1"
       style={{
-        backgroundImage:
-          "url('/img/bgtg.png')",
+        backgroundImage: "url('/img/tg1.png')",
       }}
     >
       <div className="sec1-bg"></div>

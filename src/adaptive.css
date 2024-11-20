@@ -1,258 +1,334 @@
-@media screen and (max-width: 1775px){
-    .container{
+@media screen and (max-width: 1775px) {
+    .container {
         padding: 0 20px;
     }
-    .sec1-container-text{
+
+    .sec1-container-text {
         max-width: 50%;
     }
 }
-@media screen and (max-width: 1650px){
-    .cliensts-container-logo{
+
+@media screen and (max-width: 1650px) {
+    .cliensts-container-logo {
         gap: 40px;
     }
-    .sec1-container-bg{
+
+    .sec1-container-bg {
         bottom: 161px;
     }
-    .vakansii-container-block{
+
+    .vakansii-container-block {
         padding-right: 48px;
     }
 }
-@media screen and (max-width: 1550px){
-    .sec1-container-bg{
+
+@media screen and (max-width: 1550px) {
+    .sec1-container-bg {
         bottom: 197px;
     }
+
     .vakansii-container {
         gap: 40px 30px;
     }
 }
-@media screen and (max-width: 1500px){
-    .vakansii-container-block-line p{
+
+@media screen and (max-width: 1500px) {
+    .vakansii-container-block-line p {
         max-width: 100%;
         width: 100%;
     }
-    .vakansii-container-block-line{
+
+    .vakansii-container-block-line {
         flex-wrap: wrap;
         justify-content: flex-start;
         gap: 15px 10px;
     }
 }
-@media screen and (max-width: 1400px){
-    .cliensts-container{
+
+@media screen and (max-width: 1400px) {
+    .cliensts-container {
         flex-direction: column;
         align-items: flex-start;
     }
-    .cliensts-container-logo{
+
+    .cliensts-container-logo {
         flex-wrap: wrap;
     }
+
     .contacts-container-into-block {
         width: 700px;
     }
+
     .contacts-form-input-short {
         width: 271px;
     }
-    }
-@media screen and (max-width: 1400px){
-    .sec1-container{
+}
+
+@media screen and (max-width: 1400px) {
+    .sec1-container {
         flex-direction: column;
         gap: 21px;
         align-items: flex-start;
     }
-    .sec1-container-text{
+
+    .sec1-container-text {
         max-width: 100%;
     }
-    .video__about-us{
+
+    .video__about-us {
         width: 100%;
     }
-    .sec1-container-bg{
+
+    .sec1-container-bg {
         bottom: 247px;
     }
 }
-@media screen and (max-width: 1250px){
-    .contacts-container-into{
+
+@media screen and (max-width: 1250px) {
+    .contacts-container-into {
         flex-direction: column;
         align-items: flex-start;
     }
-    .contacts-container-into-block{
+
+    .contacts-container-into-block {
         width: 100%;
     }
+
     .contacts-form-input-short {
         width: 48.5%;
     }
 }
-@media screen and (max-width: 1180px){
+
+@media screen and (max-width: 1180px) {
     .contacts-form-input-short {
         width: 48%;
     }
 }
-@media screen and (max-width: 1100px){
-    .vakansii-container-block-top{
+
+@media screen and (max-width: 1100px) {
+    .vakansii-container-block-top {
         flex-direction: column;
     }
-    .vakansii-container-block-top-img img,.vakansii-container-block-top-img{
+
+    .vakansii-container-block-top-img img,
+    .vakansii-container-block-top-img {
         width: 100%;
     }
 }
-@media screen and (max-width: 920px){
+
+@media screen and (max-width: 920px) {
     .contacts-form-input-short {
         width: 47.5%;
     }
 }
-@media screen and (max-width: 800px){
-    .vakansii-container-block{
+
+@media screen and (max-width: 800px) {
+    .vakansii-container-block {
         width: 100%;
     }
 }
-@media screen and (max-width: 767px){
-    .contacts-form-input-short{
+
+@media screen and (max-width: 767px) {
+    .contacts-form-input-short {
         width: 100%;
     }
 }
-@media screen and (max-width: 650px){
-    .head-menu{
+
+@media screen and (max-width: 650px) {
+    .head-menu {
         gap: 15px;
     }
-    .contacts-container-content-part p{
+
+    .contacts-container-content-part p {
         font-size: 20px;
-        line-height: 25px; /* 125% */
+        line-height: 25px;
+        /* 125% */
         padding-bottom: 10px;
     }
-    .contacts-container-content-part-block svg{
+
+    .contacts-container-content-part-block svg {
         width: 25px;
     }
-    .contacts-container-content-part-block{
+
+    .contacts-container-content-part-block {
         font-size: 16px;
-        line-height: 20px; /* 125% */
+        line-height: 20px;
+        /* 125% */
         gap: 10px;
     }
-    .btn-contact{
+
+    .btn-contact {
         height: 50px;
         font-size: 17px;
     }
-    .contacts-container-content{
+
+    .contacts-container-content {
         gap: 15px;
     }
-    .contacts-container{
+
+    .contacts-container {
         padding-top: 25px;
         padding-bottom: 49px;
     }
-    .contacts-container-into{
+
+    .contacts-container-into {
         padding-top: 0;
     }
-    .contacts-form{
+
+    .contacts-form {
         gap: 15px;
     }
-    .contacts-form-input-textarea{
+
+    .contacts-form-input-textarea {
         height: 36px;
     }
-    .contacts-container-into-block p{
+
+    .contacts-container-into-block p {
         font-size: 25px;
-        line-height: 36px; /* 144% */
+        line-height: 36px;
+        /* 144% */
     }
-    .contacts-container-into-block{
+
+    .contacts-container-into-block {
         padding: 35px 25px;
     }
-    .vakansii-container-block-top-img img{
+
+    .vakansii-container-block-top-img img {
         height: 127px;
     }
-    .vakansii-container-block-top{
+
+    .vakansii-container-block-top {
         gap: 12px;
     }
-    .vakansii-container-block-top-text span{
+
+    .vakansii-container-block-top-text span {
         font-size: 24px;
-        line-height: 36px; /* 150% */
+        line-height: 36px;
+        /* 150% */
     }
-    .vakansii-container-block{
+
+    .vakansii-container-block {
         padding: 29px 20px;
     }
-    .sec2-container > .sec1-container-text p{
+
+    .sec2-container>.sec1-container-text p {
         padding-bottom: 30px;
     }
-    .sec2-container > .sec1-container-text p:last-child{
+
+    .sec2-container>.sec1-container-text p:last-child {
         padding-bottom: 0;
     }
-    .sec1-container-bg{
+
+    .sec1-container-bg {
         bottom: 0;
         height: 308px;
     }
-    .sec1-container-text h1,.contacts-title{
+
+    .sec1-container-text h1,
+    .contacts-title {
         padding-bottom: 10px;
         font-size: 32px;
-        line-height: 48px; /* 150% */
+        line-height: 48px;
+        /* 150% */
     }
-    .sec1-container{
+
+    .sec1-container {
         padding-top: 25px;
         padding-bottom: 60px;
     }
-    .sec2-container{
+
+    .sec2-container {
         padding-bottom: 45px;
         padding-top: 25px;
     }
-    .sec1-container-text p{
+
+    .sec1-container-text p {
         font-size: 18px;
-        line-height: 26px; /* 144.444% */
+        line-height: 26px;
+        /* 144.444% */
     }
-    .video__about-us{
+
+    .video__about-us {
         height: 225.318px;
     }
-    .video-prev > svg{
+
+    .video-prev>svg {
         width: 70px;
         height: 70px;
     }
-    .cliensts-container p{
+
+    .cliensts-container p {
         font-size: 32px;
-        line-height: 38px; /* 212.5% */
+        line-height: 38px;
+        /* 212.5% */
     }
-    .cliensts-container-logo > a > svg,.cliensts-container-logo > a > img{
+
+    .cliensts-container-logo>a>svg,
+    .cliensts-container-logo>a>img {
         height: 28px;
     }
-    .cliensts-container-logo{
+
+    .cliensts-container-logo {
         gap: 25px;
     }
-    .cliensts-container{
+
+    .cliensts-container {
         gap: 25px;
     }
-    .cliensts{
+
+    .cliensts {
         background: transparent;
         padding-bottom: 45px;
         backdrop-filter: blur(0px);
         padding-top: 0;
     }
-    .container{
+
+    .container {
         padding: 0 15px;
     }
-    .head-logo{
+
+    .head-logo {
         font-size: 32px;
         line-height: normal;
     }
-    .sec1-container-text p{
+
+    .sec1-container-text p {
         padding-top: 4px;
         font-size: 16px;
-        line-height: 24px; /* 150% */
+        line-height: 24px;
+        /* 150% */
     }
-    .vakansii-container-block-line{
+
+    .vakansii-container-block-line {
         padding: 12px;
     }
-    .vakansii-container-block a{
+
+    .vakansii-container-block a {
         height: 50px;
         width: 100%;
         font-size: 17px;
     }
-    .vakansii-container{
+
+    .vakansii-container {
         gap: 30px;
     }
 }
-@media screen and (max-width: 475px){
-    .head-menu{
+
+@media screen and (max-width: 475px) {
+    .head-menu {
         display: none;
     }
-    .header-container{
+
+    .header-container {
         justify-content: center;
         padding: 6px 0;
     }
-    .head-mob > ul{
-        display: flex!important;
+
+    .head-mob>ul {
+        display: flex !important;
     }
-    .head-mob{
+
+    .head-mob {
         display: block;
     }
 }
