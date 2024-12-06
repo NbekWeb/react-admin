@@ -11,23 +11,47 @@ function App() {
         <div className="container">
           <div className="header-container">
             <NavLink to="/" className="head-logo">
-              <img src="/img/opticode-logo.png" alt="" />
+              <img src="/img/opticode-logo.png" alt="Logo" />
             </NavLink>
             <ul className="head-menu">
               <li>
-                <NavLink to="/aboutUs">О нас</NavLink>
+                <NavLink
+                  to="/aboutUs"
+                  className={({ isActive }) =>
+                    `btn2 btn3 ${isActive ? "btn-active" : ""}`
+                  }
+                  style={{ margin: 0 }}
+                >
+                  <span>О нас</span>
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Контакты</NavLink>
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) =>
+                    `btn2 btn3 btn4 ${isActive ? "btn-active" : ""}`
+                  }
+                  style={{ margin: 0 }}
+                >
+                  <span>Контакты</span>
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/vakansi">Вакансии</NavLink>
+                <NavLink
+                  to="/vakansi"
+                  className={({ isActive }) =>
+                    `btn2 btn3 btn5 ${isActive ? "btn-active" : ""}`
+                  }
+                  style={{ margin: 0 }}
+                >
+                  <span>Вакансии</span>
+                </NavLink>
               </li>
             </ul>
           </div>
         </div>
       </header>
-      
+
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/aboutUs" element={<AboutUs />} />

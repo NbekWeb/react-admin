@@ -122,6 +122,16 @@
     }
 }
 
+@media screen and (max-width: 850px) {
+    .head-menu {
+        gap: 20px;
+    }
+
+    .head-logo img {
+        width: 250px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .vakansii-container-block {
         width: 100%;
@@ -137,6 +147,23 @@
 @media screen and (max-width: 650px) {
     .head-menu {
         gap: 15px;
+    }
+
+    .head-menu {
+        display: none;
+    }
+
+    .header-container {
+        justify-content: center;
+        padding: 6px 0;
+    }
+
+    .head-mob>ul {
+        display: flex !important;
+    }
+
+    .head-mob {
+        display: block;
     }
 
     .contacts-container-content-part p {
@@ -234,7 +261,7 @@
 
     .sec1-container {
         padding-top: 25px;
-        padding-bottom: 60px;
+        padding-bottom: 50px;
     }
 
     .sec2-container {
@@ -303,12 +330,11 @@
         padding: 12px;
     }
 
-    .vakansii-container-block a {
-        height: 50px;
-        width: 100%;
-        font-size: 17px;
-    }
-
+    /*.vakansii-container-block a{*/
+    /*    height: 50px;*/
+    /*    width: 100%;*/
+    /*    font-size: 17px;*/
+    /*}*/
     .vakansii-container {
         gap: 30px;
     }

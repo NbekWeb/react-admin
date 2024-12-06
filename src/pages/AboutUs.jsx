@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 const AboutUs = () => {
@@ -6,7 +5,8 @@ const AboutUs = () => {
     <section
       className="sec1"
       style={{
-        backgroundImage: "url('/img/tg1.png')",
+        backgroundImage:
+          "url('/img/telegram-cloud-photo-size-2-5271946114322522287-y 1.png')",
       }}
     >
       <div className="sec1-bg"></div>
@@ -15,7 +15,9 @@ const AboutUs = () => {
         <div className="head-mob">
           <ul className="head-menu">
             <li>
-              <NavLink to="/aboutUs">О нас</NavLink>
+              <NavLink to="/aboutUs" className="btn-active-mob">
+                О нас
+              </NavLink>
             </li>
             <li>
               <NavLink to="/contact">Контакты</NavLink>

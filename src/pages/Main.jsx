@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { NavLink } from "react-router-dom";
 
@@ -9,7 +9,7 @@ const MyComponent = () => {
     <section
       className="sec1"
       style={{
-        backgroundImage: `url('/img/tg1.png')`,
+        backgroundImage: `url("/img/telegram-cloud-photo-size-2-5271946114322522287-y 1.png")`,
       }}
     >
       <div className="sec1-bg"></div>
@@ -18,7 +18,7 @@ const MyComponent = () => {
         <div className="head-mob">
           <ul className="head-menu">
             <li>
-              <NavLink to="/aboutUS">О нас</NavLink>
+              <NavLink to="/aboutUs">О нас</NavLink>
             </li>
             <li>
               <NavLink to="/contact">Контакты</NavLink>
@@ -30,7 +30,10 @@ const MyComponent = () => {
         </div>
         <div className="sec1-container">
           <div className="sec1-container-text">
-            <h1>Заголовок</h1>
+            <h1>
+              Stability and strength of our team - A guarantee of quality for
+              your projects!
+            </h1>
             <p>
               We believe that every brand has a unique story to tell, and we
               strive to bring that story to life through innovative solutions.
@@ -73,7 +76,7 @@ const MyComponent = () => {
                 </svg>
               </div>
             ) : (
-              <div className="video" style={{ display: "block" }}>
+              <div className="video">
                 <iframe
                   width="100%"
                   height="100%"
@@ -88,12 +91,12 @@ const MyComponent = () => {
           </div>
         </div>
       </div>
-      <div className="cliensts">
+      <div className="cliensts" id="cliensts">
         <div className="container">
           <div className="cliensts-container">
             <p>Наши клиенты</p>
             <div className="cliensts-container-logo">
-              <a href="#">
+              <a to="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="152"
@@ -116,7 +119,7 @@ const MyComponent = () => {
                   </defs>
                 </svg>
               </a>
-              <a href="#">
+              <a to="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="48"
@@ -132,10 +135,10 @@ const MyComponent = () => {
                   />
                 </svg>
               </a>
-              <a href="#">
-                <img src="/img/sl2.png" alt="" />
+              <a to="">
+                <img src="/img/Слой 2 1.png" alt="" />
               </a>
-              <a href="#">
+              <a to="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="48"
@@ -151,10 +154,10 @@ const MyComponent = () => {
                   />
                 </svg>
               </a>
-              <a href="">
+              <a to="">
                 <img src="/img/Group 25761.png" alt="" />
               </a>
-              <a href="">
+              <a to="">
                 <img src="/img/vivalogo 1.png" alt="" />
               </a>
             </div>
